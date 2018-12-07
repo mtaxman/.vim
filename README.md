@@ -7,8 +7,8 @@
 ```
 cd ~			# cd into your home directory
 rm -rf .vim
-git clone git@github.com:mtaxan/.vim.git 
-			(or git clone https://github.com/mtaxan/.vim.git)
+git clone git@github.com:mtaxman/.vim.git 
+			(or git clone https://github.com/mtaxman/.vim.git)
 sed -i 's/^M//' .vim/symbolic-link-script           (for MS Windows users using cygwin)
 sed -i 's/^M//' .vim/install-vundle-and-vim-plugins (for MS Windows users using cygwin)
 sh .vim/symbolic-link-script
@@ -16,7 +16,7 @@ sh .vim/install-vundle-and-vim-plugins
 ```
 
 Two important points:  
-1.  Use 'https://github.com/mtaxan/.vim.git' instead of 'git@github.com:mtaxan/.vim.git' for "git clone" argument if you do NOT have ssh keys set up in github.com
+1.  Use 'https://github.com/mtaxman/.vim.git' instead of 'git@github.com:mtaxman/.vim.git' for "git clone" argument if you do NOT have ssh keys set up in github.com
 
 1.  You CANNOT cut and paste the '^M' characters in the 'sed' lines.  You have to type them in manually.  To enter '^M', type CTRL-V, then CTRL-M. That is, hold down the CTRL key then press V and M in succession.
 
