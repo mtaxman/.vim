@@ -9,8 +9,6 @@ cd ~			# cd into your home directory
 rm -rf .vim
 git clone git@github.com:mtaxman/.vim.git 
 			(or git clone https://github.com/mtaxman/.vim.git)
-sed -i 's/^M//' .vim/symbolic-link-script           (for MS Windows users using cygwin)
-sed -i 's/^M//' .vim/install-vundle-and-vim-plugins (for MS Windows users using cygwin)
 sh .vim/symbolic-link-script
 sh .vim/install-vundle-and-vim-plugins
 ```
